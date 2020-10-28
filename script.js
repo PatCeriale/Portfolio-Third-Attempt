@@ -12,6 +12,7 @@ toggleButton.on("click", function (event) {
   // Log resume, and append to document after clicking the "show" button
 
   if (hideAbstract) {
+    console.log("Hello there.");
     toggleButton.text("Hide Resume");
     abstractDiv = $(
       `<img id="resume" src="images/CerialeResume.png" class="img-fluid thumbnail"
@@ -21,7 +22,7 @@ toggleButton.on("click", function (event) {
     toggleButton.after(abstractDiv);
     // Removes the abstract if the button is clicked again
   } else {
-    console.log("hide!");
+    console.log("General Kenobi!");
     toggleButton.text("Show Resume");
     abstractDiv.remove();
     abstractDiv = undefined;
