@@ -120,3 +120,6 @@ body {
   transform: rotateY(180deg);
   overflow: scroll;
 }
+.portfolio {
+  text-align: center;
+}
